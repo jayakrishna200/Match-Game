@@ -1,0 +1,13 @@
+.project-item {
+  margin: 10px;
+}
+.project-image {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.project-btn{
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+@media all and (max-width: 767px) {
+  .thumbnail {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .thumbnail {
+    height: 400px;
+    width: 600px;
+  }
+}

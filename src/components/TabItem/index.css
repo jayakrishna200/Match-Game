@@ -1,0 +1,51 @@
+.tabs-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab-item {
+  margin: 30px;
+}
+.button {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  border-width: 0px;
+}
+.active-tab-btn {
+  color: #fec653;
+  border-bottom: 3px;
+  border-style: solid;
+  border-color: #fec653;
+}
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.tab-and-projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (max-width: 767px) {
+  .projects-container {
+    width: 400px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .projects-container {
+    width: 700px;
+  }
+}
